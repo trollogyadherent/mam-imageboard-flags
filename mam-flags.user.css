@@ -1,12 +1,12 @@
 /* ==UserStyle==
 @name           myanonamouse.net - Jan 2024
 @namespace      github.com/openstyles/stylus
-@version        1.0.2
+@version        1.0.3
 @description    Imageboard style flags in the mam shoutbox
 @author         Me
 ==/UserStyle== */
 
-@-moz-document domain("myanonamouse.net") {
+@-moz-document regexp(".*myanonamouse\.net\/?$") {
     img[src^="https://cdn.myanonamouse.net/pic/flags/"] {
         margin-right: 3px;
         content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
