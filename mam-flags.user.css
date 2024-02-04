@@ -1,2356 +1,1078 @@
 /* ==UserStyle==
 @name           myanonamouse.net - Jan 2024
 @namespace      github.com/openstyles/stylus
-@version        1.0.1
-@description    A new userstyle
+@version        1.0.2
+@description    Imageboard style flags in the mam shoutbox
 @author         Me
 ==/UserStyle== */
 
 @-moz-document domain("myanonamouse.net") {
-    /* Insert code here... */
-    body {
-        
-    
-    }
-    
-    img[src*="https://cdn.myanonamouse.net/pic/flags"] {
+    img[src^="https://cdn.myanonamouse.net/pic/flags/"] {
         margin-right: 3px;
+        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
+        width: 16px;
+        height: 11px;
+        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
     }
     
+    /* memeflags */
     img[src="https://cdn.myanonamouse.net/pic/flags/xx.svg"] {
         content: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_pirate.png');
-        width: 16px;
-        height: 11px;
+        background-image: none;
     }
     
+    /* antarctica override */
     img[src="https://cdn.myanonamouse.net/pic/flags/aq.svg"] {
         content: url('https://cdn.myanonamouse.net/imagebucket/185207/MarieByrdLand_antarctica_flag.png');
-        width: 16px;
-        height: 11px;
+        background-image: none;
     }
     
+    /* "thin" flags */
     
-		img[src="https://cdn.myanonamouse.net/pic/flags/ad.svg"] {
+    img[src="https://cdn.myanonamouse.net/pic/flags/ch.svg"] {
         content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
+        width: 14px;
         height: 11px;
         background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
-        background-position: -0px -0px;
+        background-position: -193px -22px;
+    }
+    
+    img[src="https://cdn.myanonamouse.net/pic/flags/va.svg"] {
+        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
+        width: 13px;
+        height: 11px;
+        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+        background-position: -33px -165px;
+    }
+    
+    img[src="https://cdn.myanonamouse.net/pic/flags/np.svg"] {
+        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
+        width: 13px;
+        height: 11px;
+        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+        background-position: -209px -110px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/ae.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
-        background-position: -16px -0px;
+    /* regular flags */
+    
+    img[src="https://cdn.myanonamouse.net/pic/flags/ad.svg"] {
+        background-position: 0px 0px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/af.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
-        background-position: -32px -0px;
+    img[src="https://cdn.myanonamouse.net/pic/flags/ae.svg"] {
+        background-position: -16px 0px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/ag.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
-        background-position: -48px -0px;
+    img[src="https://cdn.myanonamouse.net/pic/flags/af.svg"] {
+        background-position: -32px 0px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/ai.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
-        background-position: -64px -0px;
+    img[src="https://cdn.myanonamouse.net/pic/flags/ag.svg"] {
+        background-position: -48px 0px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/al.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
-        background-position: -80px -0px;
+    img[src="https://cdn.myanonamouse.net/pic/flags/ai.svg"] {
+        background-position: -64px 0px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/am.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
-        background-position: -96px -0px;
+    img[src="https://cdn.myanonamouse.net/pic/flags/al.svg"] {
+        background-position: -80px 0px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/an.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
-        background-position: -112px -0px;
+    img[src="https://cdn.myanonamouse.net/pic/flags/am.svg"] {
+        background-position: -96px 0px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/ao.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
-        background-position: -128px -0px;
+    img[src="https://cdn.myanonamouse.net/pic/flags/an.svg"] {
+        background-position: -112px 0px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/ar.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
-        background-position: -160px -0px;
+    img[src="https://cdn.myanonamouse.net/pic/flags/ao.svg"] {
+        background-position: -128px 0px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/as.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
-        background-position: -176px -0px;
+    img[src="https://cdn.myanonamouse.net/pic/flags/ar.svg"] {
+        background-position: -160px 0px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/at.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
-        background-position: -192px -0px;
+    img[src="https://cdn.myanonamouse.net/pic/flags/as.svg"] {
+        background-position: -176px 0px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/au.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
-        background-position: -208px -0px;
+    img[src="https://cdn.myanonamouse.net/pic/flags/at.svg"] {
+        background-position: -192px 0px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/aw.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
-        background-position: -224px -0px;
+    img[src="https://cdn.myanonamouse.net/pic/flags/au.svg"] {
+        background-position: -208px 0px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/ax.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
-        background-position: -240px -0px;
+    img[src="https://cdn.myanonamouse.net/pic/flags/aw.svg"] {
+        background-position: -224px 0px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/az.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
-        background-position: -0px -11px;
+    img[src="https://cdn.myanonamouse.net/pic/flags/ax.svg"] {
+        background-position: -240px 0px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/ba.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/az.svg"] {
+        background-position: 0px -11px;
+    }
+
+    img[src="https://cdn.myanonamouse.net/pic/flags/ba.svg"] {
         background-position: -16px -11px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/bb.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/bb.svg"] {
         background-position: -32px -11px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/bd.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/bd.svg"] {
         background-position: -48px -11px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/be.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/be.svg"] {
         background-position: -64px -11px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/bf.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/bf.svg"] {
         background-position: -80px -11px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/bg.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/bg.svg"] {
         background-position: -96px -11px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/bh.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/bh.svg"] {
         background-position: -112px -11px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/bi.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/bi.svg"] {
         background-position: -128px -11px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/bj.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/bj.svg"] {
         background-position: -144px -11px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/bl.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/bl.svg"] {
         background-position: -160px -11px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/bm.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/bm.svg"] {
         background-position: -176px -11px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/bn.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/bn.svg"] {
         background-position: -192px -11px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/bo.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/bo.svg"] {
         background-position: -208px -11px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/bq.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/bq.svg"] {
         background-position: -224px -11px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/br.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/br.svg"] {
         background-position: -240px -11px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/bs.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
-        background-position: -0px -22px;
+    img[src="https://cdn.myanonamouse.net/pic/flags/bs.svg"] {
+        background-position: 0px -22px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/bt.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/bt.svg"] {
         background-position: -16px -22px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/bv.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/bv.svg"] {
         background-position: -32px -22px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/bw.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/bw.svg"] {
         background-position: -48px -22px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/by.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/by.svg"] {
         background-position: -64px -22px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/bz.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/bz.svg"] {
         background-position: -80px -22px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/ca.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/ca.svg"] {
         background-position: -96px -22px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/catalonia.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/catalonia.svg"] {
         background-position: -112px -22px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/cc.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/cc.svg"] {
         background-position: -128px -22px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/cd.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/cd.svg"] {
         background-position: -144px -22px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/cf.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/cf.svg"] {
         background-position: -160px -22px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/cg.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/cg.svg"] {
         background-position: -176px -22px;
     }
 
-	
-    
-    img[src="https://cdn.myanonamouse.net/pic/flags/ch.svg"] {
-	content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-	width: 14px;
-	height: 11px;
-	background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
-	background-position: -193px -22px;
-}
-
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/ci.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/ci.svg"] {
         background-position: -208px -22px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/ck.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/ck.svg"] {
         background-position: -224px -22px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/cl.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/cl.svg"] {
         background-position: -240px -22px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/cm.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
-        background-position: -0px -33px;
+    img[src="https://cdn.myanonamouse.net/pic/flags/cm.svg"] {
+        background-position: 0px -33px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/cn.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/cn.svg"] {
         background-position: -16px -33px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/co.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/co.svg"] {
         background-position: -32px -33px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/cr.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/cr.svg"] {
         background-position: -48px -33px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/cs.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/cs.svg"] {
         background-position: -64px -33px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/cu.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/cu.svg"] {
         background-position: -80px -33px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/cv.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/cv.svg"] {
         background-position: -96px -33px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/cw.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/cw.svg"] {
         background-position: -112px -33px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/cx.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/cx.svg"] {
         background-position: -128px -33px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/cy.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/cy.svg"] {
         background-position: -144px -33px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/cz.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/cz.svg"] {
         background-position: -160px -33px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/de.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/de.svg"] {
         background-position: -176px -33px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/dj.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/dj.svg"] {
         background-position: -192px -33px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/dk.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/dk.svg"] {
         background-position: -208px -33px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/dm.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/dm.svg"] {
         background-position: -224px -33px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/do.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/do.svg"] {
         background-position: -240px -33px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/dz.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
-        background-position: -0px -44px;
+    img[src="https://cdn.myanonamouse.net/pic/flags/dz.svg"] {
+        background-position: 0px -44px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/ec.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/ec.svg"] {
         background-position: -16px -44px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/ee.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/ee.svg"] {
         background-position: -32px -44px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/eg.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/eg.svg"] {
         background-position: -48px -44px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/eh.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/eh.svg"] {
         background-position: -64px -44px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/en.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/en.svg"] {
         background-position: -80px -44px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/er.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/er.svg"] {
         background-position: -96px -44px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/es.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/es.svg"] {
         background-position: -112px -44px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/et.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/et.svg"] {
         background-position: -128px -44px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/eu.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/eu.svg"] {
         background-position: -144px -44px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/ev.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/ev.svg"] {
         background-position: -160px -44px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/fi.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/fi.svg"] {
         background-position: -176px -44px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/fj.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/fj.svg"] {
         background-position: -192px -44px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/fk.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/fk.svg"] {
         background-position: -208px -44px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/fm.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/fm.svg"] {
         background-position: -224px -44px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/fo.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/fo.svg"] {
         background-position: -240px -44px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/fr.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
-        background-position: -0px -55px;
+    img[src="https://cdn.myanonamouse.net/pic/flags/fr.svg"] {
+        background-position: 0px -55px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/ga.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/ga.svg"] {
         background-position: -16px -55px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/gb.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/gb.svg"] {
         background-position: -32px -55px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/gd.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/gd.svg"] {
         background-position: -48px -55px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/ge.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/ge.svg"] {
         background-position: -64px -55px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/gf.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/gf.svg"] {
         background-position: -80px -55px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/gg.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/gg.svg"] {
         background-position: -96px -55px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/gh.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/gh.svg"] {
         background-position: -112px -55px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/gi.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/gi.svg"] {
         background-position: -128px -55px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/gl.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/gl.svg"] {
         background-position: -144px -55px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/gm.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/gm.svg"] {
         background-position: -160px -55px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/gn.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/gn.svg"] {
         background-position: -176px -55px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/gp.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/gp.svg"] {
         background-position: -192px -55px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/gq.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/gq.svg"] {
         background-position: -208px -55px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/gr.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/gr.svg"] {
         background-position: -224px -55px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/gs.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/gs.svg"] {
         background-position: -240px -55px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/gt.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
-        background-position: -0px -66px;
+    img[src="https://cdn.myanonamouse.net/pic/flags/gt.svg"] {
+        background-position: 0px -66px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/gu.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/gu.svg"] {
         background-position: -16px -66px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/gw.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/gw.svg"] {
         background-position: -32px -66px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/gy.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/gy.svg"] {
         background-position: -48px -66px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/hk.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/hk.svg"] {
         background-position: -64px -66px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/hm.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/hm.svg"] {
         background-position: -80px -66px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/hn.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/hn.svg"] {
         background-position: -96px -66px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/hr.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/hr.svg"] {
         background-position: -112px -66px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/ht.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/ht.svg"] {
         background-position: -128px -66px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/hu.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/hu.svg"] {
         background-position: -144px -66px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/id.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/id.svg"] {
         background-position: -160px -66px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/ie.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/ie.svg"] {
         background-position: -176px -66px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/il.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/il.svg"] {
         background-position: -192px -66px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/im.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/im.svg"] {
         background-position: -208px -66px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/in.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/in.svg"] {
         background-position: -224px -66px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/io.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/io.svg"] {
         background-position: -240px -66px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/iq.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
-        background-position: -0px -77px;
+    img[src="https://cdn.myanonamouse.net/pic/flags/iq.svg"] {
+        background-position: 0px -77px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/ir.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/ir.svg"] {
         background-position: -16px -77px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/is.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/is.svg"] {
         background-position: -32px -77px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/it.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/it.svg"] {
         background-position: -48px -77px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/je.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/je.svg"] {
         background-position: -64px -77px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/jm.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/jm.svg"] {
         background-position: -80px -77px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/jo.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/jo.svg"] {
         background-position: -96px -77px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/jp.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/jp.svg"] {
         background-position: -112px -77px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/ke.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/ke.svg"] {
         background-position: -128px -77px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/kg.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/kg.svg"] {
         background-position: -144px -77px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/kh.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/kh.svg"] {
         background-position: -160px -77px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/ki.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/ki.svg"] {
         background-position: -176px -77px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/km.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/km.svg"] {
         background-position: -192px -77px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/kn.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/kn.svg"] {
         background-position: -208px -77px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/kp.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/kp.svg"] {
         background-position: -224px -77px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/kr.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/kr.svg"] {
         background-position: -240px -77px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/kw.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
-        background-position: -0px -88px;
+    img[src="https://cdn.myanonamouse.net/pic/flags/kw.svg"] {
+        background-position: 0px -88px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/ky.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/ky.svg"] {
         background-position: -16px -88px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/kz.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/kz.svg"] {
         background-position: -32px -88px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/la.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/la.svg"] {
         background-position: -48px -88px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/lb.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/lb.svg"] {
         background-position: -64px -88px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/lc.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/lc.svg"] {
         background-position: -80px -88px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/li.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/li.svg"] {
         background-position: -96px -88px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/lk.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/lk.svg"] {
         background-position: -112px -88px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/lr.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/lr.svg"] {
         background-position: -128px -88px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/ls.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/ls.svg"] {
         background-position: -144px -88px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/lt.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/lt.svg"] {
         background-position: -160px -88px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/lu.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/lu.svg"] {
         background-position: -176px -88px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/lv.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/lv.svg"] {
         background-position: -192px -88px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/ly.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/ly.svg"] {
         background-position: -208px -88px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/ma.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/ma.svg"] {
         background-position: -224px -88px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/mc.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/mc.svg"] {
         background-position: -240px -88px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/md.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
-        background-position: -0px -99px;
+    img[src="https://cdn.myanonamouse.net/pic/flags/md.svg"] {
+        background-position: 0px -99px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/me.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/me.svg"] {
         background-position: -16px -99px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/mf.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/mf.svg"] {
         background-position: -32px -99px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/mg.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/mg.svg"] {
         background-position: -48px -99px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/mh.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/mh.svg"] {
         background-position: -64px -99px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/mk.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/mk.svg"] {
         background-position: -80px -99px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/ml.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/ml.svg"] {
         background-position: -96px -99px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/mm.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/mm.svg"] {
         background-position: -112px -99px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/mn.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/mn.svg"] {
         background-position: -128px -99px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/mo.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/mo.svg"] {
         background-position: -144px -99px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/mp.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/mp.svg"] {
         background-position: -160px -99px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/mq.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/mq.svg"] {
         background-position: -176px -99px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/mr.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/mr.svg"] {
         background-position: -192px -99px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/ms.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/ms.svg"] {
         background-position: -208px -99px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/mt.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/mt.svg"] {
         background-position: -224px -99px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/mu.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/mu.svg"] {
         background-position: -240px -99px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/mv.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
-        background-position: -0px -110px;
+    img[src="https://cdn.myanonamouse.net/pic/flags/mv.svg"] {
+        background-position: 0px -110px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/mw.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/mw.svg"] {
         background-position: -16px -110px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/mx.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/mx.svg"] {
         background-position: -32px -110px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/my.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/my.svg"] {
         background-position: -48px -110px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/mz.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/mz.svg"] {
         background-position: -64px -110px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/na.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/na.svg"] {
         background-position: -80px -110px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/nc.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/nc.svg"] {
         background-position: -96px -110px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/ne.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/ne.svg"] {
         background-position: -112px -110px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/nf.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/nf.svg"] {
         background-position: -128px -110px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/ng.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/ng.svg"] {
         background-position: -144px -110px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/ni.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/ni.svg"] {
         background-position: -160px -110px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/nl.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/nl.svg"] {
         background-position: -176px -110px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/no.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/no.svg"] {
         background-position: -192px -110px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/np.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
-        background-position: -208px -110px;
-    }
-
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/nr.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/nr.svg"] {
         background-position: -224px -110px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/nu.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/nu.svg"] {
         background-position: -240px -110px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/nz.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
-        background-position: -0px -121px;
+    img[src="https://cdn.myanonamouse.net/pic/flags/nz.svg"] {
+        background-position: 0px -121px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/om.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/om.svg"] {
         background-position: -16px -121px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/pa.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/pa.svg"] {
         background-position: -32px -121px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/pe.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/pe.svg"] {
         background-position: -48px -121px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/pf.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/pf.svg"] {
         background-position: -64px -121px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/pg.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/pg.svg"] {
         background-position: -80px -121px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/ph.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/ph.svg"] {
         background-position: -96px -121px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/pk.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/pk.svg"] {
         background-position: -112px -121px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/pl.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/pl.svg"] {
         background-position: -128px -121px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/pm.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/pm.svg"] {
         background-position: -144px -121px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/pn.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/pn.svg"] {
         background-position: -160px -121px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/pr.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/pr.svg"] {
         background-position: -176px -121px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/ps.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/ps.svg"] {
         background-position: -192px -121px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/pt.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/pt.svg"] {
         background-position: -208px -121px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/pw.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/pw.svg"] {
         background-position: -224px -121px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/py.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/py.svg"] {
         background-position: -240px -121px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/qa.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
-        background-position: -0px -132px;
+    img[src="https://cdn.myanonamouse.net/pic/flags/qa.svg"] {
+        background-position: 0px -132px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/re.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/re.svg"] {
         background-position: -16px -132px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/ro.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/ro.svg"] {
         background-position: -32px -132px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/rs.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/rs.svg"] {
         background-position: -48px -132px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/ru.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/ru.svg"] {
         background-position: -64px -132px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/rw.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/rw.svg"] {
         background-position: -80px -132px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/sa.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/sa.svg"] {
         background-position: -96px -132px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/sb.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/sb.svg"] {
         background-position: -112px -132px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/sc.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/sc.svg"] {
         background-position: -128px -132px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/gb-sct.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/gb-sct.svg"] {
         background-position: -144px -132px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/sd.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/sd.svg"] {
         background-position: -160px -132px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/se.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/se.svg"] {
         background-position: -176px -132px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/sg.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/sg.svg"] {
         background-position: -192px -132px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/sh.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/sh.svg"] {
         background-position: -208px -132px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/si.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/si.svg"] {
         background-position: -224px -132px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/sj.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/sj.svg"] {
         background-position: -240px -132px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/sk.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
-        background-position: -0px -143px;
+    img[src="https://cdn.myanonamouse.net/pic/flags/sk.svg"] {
+        background-position: 0px -143px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/sl.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/sl.svg"] {
         background-position: -16px -143px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/sm.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/sm.svg"] {
         background-position: -32px -143px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/sn.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/sn.svg"] {
         background-position: -48px -143px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/so.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/so.svg"] {
         background-position: -64px -143px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/sr.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/sr.svg"] {
         background-position: -80px -143px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/ss.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/ss.svg"] {
         background-position: -96px -143px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/st.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/st.svg"] {
         background-position: -112px -143px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/sv.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/sv.svg"] {
         background-position: -128px -143px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/sx.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/sx.svg"] {
         background-position: -144px -143px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/sy.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/sy.svg"] {
         background-position: -160px -143px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/sz.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/sz.svg"] {
         background-position: -176px -143px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/tc.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/tc.svg"] {
         background-position: -192px -143px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/td.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/td.svg"] {
         background-position: -208px -143px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/tf.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/tf.svg"] {
         background-position: -224px -143px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/tg.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/tg.svg"] {
         background-position: -240px -143px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/th.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
-        background-position: -0px -154px;
+    img[src="https://cdn.myanonamouse.net/pic/flags/th.svg"] {
+        background-position: 0px -154px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/tj.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/tj.svg"] {
         background-position: -16px -154px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/tk.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/tk.svg"] {
         background-position: -32px -154px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/tl.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/tl.svg"] {
         background-position: -48px -154px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/tm.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/tm.svg"] {
         background-position: -64px -154px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/tn.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/tn.svg"] {
         background-position: -80px -154px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/to.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/to.svg"] {
         background-position: -96px -154px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/tr.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/tr.svg"] {
         background-position: -112px -154px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/tt.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/tt.svg"] {
         background-position: -128px -154px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/tv.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/tv.svg"] {
         background-position: -144px -154px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/tw.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/tw.svg"] {
         background-position: -160px -154px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/tz.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/tz.svg"] {
         background-position: -176px -154px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/ua.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/ua.svg"] {
         background-position: -192px -154px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/ug.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/ug.svg"] {
         background-position: -208px -154px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/um.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/um.svg"] {
         background-position: -224px -154px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/us.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/us.svg"] {
         background-position: -240px -154px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/uy.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
-        background-position: -0px -165px;
+    img[src="https://cdn.myanonamouse.net/pic/flags/uy.svg"] {
+        background-position: 0px -165px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/uz.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/uz.svg"] {
         background-position: -16px -165px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/va.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
-        background-position: -32px -165px;
-    }
-
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/vc.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/vc.svg"] {
         background-position: -48px -165px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/ve.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/ve.svg"] {
         background-position: -64px -165px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/vg.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/vg.svg"] {
         background-position: -80px -165px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/vi.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/vi.svg"] {
         background-position: -96px -165px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/vn.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/vn.svg"] {
         background-position: -112px -165px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/vu.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/vu.svg"] {
         background-position: -128px -165px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/vv.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/vv.svg"] {
         background-position: -144px -165px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/wf.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/wf.svg"] {
         background-position: -160px -165px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/ws.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/ws.svg"] {
         background-position: -176px -165px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/wt.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/wt.svg"] {
         background-position: -192px -165px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/unknown.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/unknown.svg"] {
         background-position: -208px -165px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/ye.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/ye.svg"] {
         background-position: -224px -165px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/yt.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/yt.svg"] {
         background-position: -240px -165px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/za.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
-        background-position: -0px -176px;
+    img[src="https://cdn.myanonamouse.net/pic/flags/za.svg"] {
+        background-position: 0px -176px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/zm.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/zm.svg"] {
         background-position: -16px -176px;
     }
 
-		
-		img[src="https://cdn.myanonamouse.net/pic/flags/zw.svg"] {
-        content: url('https://cdn.myanonamouse.net/imagebucket/185207/Unsaved_Image_1.png');
-        width: 16px;
-        height: 11px;
-        background-image: url('https://cdn.myanonamouse.net/imagebucket/185207/4chan_flags.png');
+    img[src="https://cdn.myanonamouse.net/pic/flags/zw.svg"] {
         background-position: -32px -176px;
     }
-
 
 }
